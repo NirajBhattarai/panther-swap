@@ -1,0 +1,23 @@
+@import "./variables.scss";
+.card {
+  background-color: $darkBlue2;
+  background-color: rgb(18, 24, 39);
+  border-radius: 2rem;
+  // box-shadow: rgb(25 19 38 / 10%) 0px 2px 12px -8px,
+  //   rgb(25 19 38 / 5%) 0px 1px 1px;
+  color: $white;
+  padding: 1rem;
+}
+
+div::-webkit-scrollbar{
+  width: 8px;
+  background-color: $darkBlue;
+
+}
+div::-webkit-scrollbar-thumb{
+  background-color: $darkPink;
+  border-radius: 1rem;
+}
+body {
+  font-family: "Mitr", sans-serif;
+}
